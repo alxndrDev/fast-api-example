@@ -27,7 +27,7 @@ async def read_item(item_id: int):
 ```
 `: int`로 지정해주면 됩니다.
 
-> 만약 str 값을 넘길 경우 에러가 발생합니다. 
+> 만약 str 값을 넘길 경우 에러가 발생합니다.   
 > ![](./images/path_variable2.png)
 
 ## Enum 타입 매개변수
@@ -53,7 +53,10 @@ async def get_brand(brand_name: Brand):
         return {"brand_name": brand_name, "message": "IMPOSSIBLE IS NOTHING."}
 ```
 - result
+  
     ![](./images/enum_nike.png)
   - 등록되지 않은 Enum일 경우
-    ![](./images/enum_gucci.png)
+    
+    ![](./images/enum_gucci.png)   
+    
     에러와 함께 등록된 Enum 목록을 알려줍니다.
